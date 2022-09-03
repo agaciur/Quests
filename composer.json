@@ -1,0 +1,14 @@
+{
+    "name": "agaciur/zadania",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agata Rojewska",
+            "email": "agata.rojewska@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
