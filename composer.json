@@ -1,14 +1,20 @@
 {
     "name": "agaciur/zadania",
     "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agaciur\\Zadania\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Agata Rojewska",
             "email": "agata.rojewska@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=8.1"
-    }
+    "minimum-stability": "dev"
 }
