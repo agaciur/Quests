@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zadania\Zadania;
+namespace Zadania\Zadania\FizzBuzz;
 
 //Napisz program, który wyświetla liczby od 1 do 100.
 // Dla liczb podzielnych przez 3 niech program wyświetli „Fizz”;
