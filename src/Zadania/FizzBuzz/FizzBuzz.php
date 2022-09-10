@@ -11,9 +11,22 @@ namespace Zadania\Zadania\FizzBuzz;
 
 // Na potrzeby zadania nie zwracaj (return) danych z funkcji lecz wyświetl (echo)
 
-class FizzBuzz {
-    public function run() {
-        //TODO: IMPLEMENTATION
+class FizzBuzz
+{
+    public function run(): void
+    {
+        for ($i = 1; $i <= 100; $i += 1) {
+            echo $i;
+
+            if ($i % 3 === 0) {
+                echo ' Fizz';
+            }
+            if ($i % 5 === 0) {
+                echo ' Buzz';
+            }
+
+            echo PHP_EOL;
+        }
     }
 }
 
